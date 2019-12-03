@@ -1,0 +1,54 @@
+<manifest>
+
+    <main-class></main-class>
+
+    <name>Regal Pyramid Plunder</name>
+
+    <tag-line>Who knew Pyramid Plunder would be such a breeze</tag-line>
+
+    <description>Does Pyramid Plunder for best xp/hr</description>
+
+    <version>0.3.0</version>
+
+    <compatibility>
+
+        <game>osrs</game>
+
+    </compatibility>
+
+
+    <categories>
+
+        <category>Thieving</category>
+
+    </categories>
+
+    <internal-id>Pyramid Plunder</internal-id>
+
+    <open-source>false</open-source>
+
+    <hidden>true</hidden>
+
+    <access>private</access>
+
+    <tags>
+
+        <tag>Pyramid</tag>
+        <tag>Plunder</tag>
+        <tag>moneymaking</tag>
+        <tag>money</tag>
+        <tag>Regal</tag>
+
+    </tags>
+
+    <resources>
+
+        <resource>com/darksage/bots/pyramidPlunder/UI/PyramidPlunder.fxml</resource>
+        <resource>com/RegalAPI/ui/regalUI.fxml</resource>
+        <resource>com/RegalAPI/Styling/Exo-Medium.tff</resource>
+        <resource>com/RegalAPI/ui/Styling/RunemateTheme.css</resource>
+        <resource>com/RegalAPI/ui/RunemateIcons/colored/png/thieving.png</resource>
+
+    </resources>
+
+</manifest>
