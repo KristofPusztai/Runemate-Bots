@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Group>
+         <children>
+            <AnchorPane prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <ListView fx:id="coordinateview" layoutX="122.0" layoutY="100.0" prefHeight="200.0" prefWidth="357.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </Group>
+   </children>
+</StackPane>

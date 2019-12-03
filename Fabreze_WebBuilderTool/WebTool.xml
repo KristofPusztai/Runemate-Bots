@@ -1,0 +1,28 @@
+<manifest>
+    <main-class>Fabreze.bots.Fabreze_WebBuilderTool.WebToolMain</main-class>
+    <name>Fabreze Web Builder Tool</name>
+    <tag-line>Who knew building Web paths would be such a breeze</tag-line><!--Max of 50 chars-->
+    <description> Plays the Motherlode Miner </description><!--Max of 110 chars-->
+    <version>1.0.0</version>
+    <compatibility>
+        <game>OSRS</game>
+    </compatibility>
+    <categories>
+        <category>DEVELOPER_TOOLS</category>
+    </categories>
+    <!--Required to publish on the bot store-->
+    <internal-id>Web Builder</internal-id>
+    <!--The rest are optional-->
+    <open-source>true</open-source>
+    <hidden>false</hidden> <!--If you need to hide it from the bot store for maintenance-->
+    <access>public</access>
+    <tags>
+        <tag>Vertex</tag>
+        <tag>Developer Tool</tag>
+        <tag>Web Builder</tag>
+        <tag>Web Path</tag>
+    </tags>
+    <resources>
+        <resource>Fabreze/bots/Fabreze_WebBuilderTool/UI/WebToolUI.fxml</resource>
+    </resources>
+</manifest>
