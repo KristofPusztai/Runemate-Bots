@@ -1,0 +1,29 @@
+<manifest>
+    <main-class>Fabreze.bots.Fabreze_Cannoner.CannonMain</main-class>
+    <name>Fabreze Cannoner[BETA]</name>
+    <tag-line>Who knew loading cannons would be such a breeze</tag-line><!--Max of 50 chars-->
+    <description>Deploys and loads dwarf cannon for fast ez xp</description><!--Max of 110 chars-->
+    <version>2.2.3</version>
+    <compatibility>
+        <game>OSRS</game>
+    </compatibility>
+    <categories>
+        <category>COMBAT</category>
+    </categories>
+
+    <internal-id>Cannoner</internal-id>
+
+    <open-source>false</open-source>
+    <hidden>false</hidden>
+    <access>public</access>
+    <!--<price>0.1</price> add this in post beta testing for 2 weeks-->
+    <tags>
+        <tag>Cannon</tag>
+        <tag>Dwarf</tag>
+        <tag>Slayer</tag>
+        <tag>Combat</tag>
+    </tags>
+    <resources>
+        <resource>Fabreze/bots/Fabreze_Cannoner/GUI/CannonerGUI.fxml</resource>
+    </resources>
+</manifest>
