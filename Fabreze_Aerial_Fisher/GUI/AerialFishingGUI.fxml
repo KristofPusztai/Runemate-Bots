@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Group>
+         <children>
+            <AnchorPane prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <Label layoutX="212.0" layoutY="39.0" text="Run Time:" />
+                  <Label fx:id="clock" layoutX="289.0" layoutY="17.0" text="00:00:00">
+                     <font>
+                        <Font size="44.0" />
+                     </font>
+                  </Label>
+                  <ProgressBar fx:id="fishingexperiencebar" layoutX="270.0" layoutY="144.0" prefWidth="200.0" progress="0.0" />
+                  <Label fx:id="fishingexperiencepercent" layoutX="356.0" layoutY="145.0" text="\%" />
+                  <Label layoutX="191.0" layoutY="145.0" text="Fishing XP:" />
+                  <Label fx:id="fishingxptracker" layoutX="490.0" layoutY="145.0" text="0/Hr" />
+                  <Label fx:id="fishinglevel" layoutX="362.0" layoutY="166.0" text="lvl" />
+                  <Label layoutX="196.0" layoutY="297.0" text="Stop At:" />
+                  <TextField fx:id="stopat" layoutX="256.0" layoutY="292.0" prefHeight="31.0" prefWidth="84.0" text="00:00:00" />
+                  <Button fx:id="update" layoutX="349.0" layoutY="292.0" mnemonicParsing="false" text="Update" />
+                  <Label fx:id="stopatlabel" layoutX="256.0" layoutY="333.0" />
+                  <CheckBox fx:id="efficientfishing" layoutX="191.0" layoutY="242.0" mnemonicParsing="false" text="Fish 1 Drop 1" />
+                  <Label layoutX="190.0" layoutY="195.0" text="Hunter XP:" />
+                  <ProgressBar fx:id="hunterexperiencebar" layoutX="270.0" layoutY="194.0" prefWidth="200.0" progress="0.0" />
+                  <Label fx:id="hunterexperiencepercent" layoutX="356.0" layoutY="195.0" text="\%" />
+                  <Label fx:id="huntinglevel" layoutX="362.0" layoutY="217.0" text="lvl" />
+                  <Label fx:id="hunterxptracker" layoutX="488.0" layoutY="195.0" text="0/Hr" />
+                  <CheckBox fx:id="fishchunks" layoutX="331.0" layoutY="242.0" mnemonicParsing="false" text="Fish Chunks" />
+                  <ProgressBar fx:id="cookingexperiencebar" layoutX="269.0" layoutY="94.0" prefWidth="200.0" progress="0.0" />
+                  <Label fx:id="cookingexperiencepercent" layoutX="356.0" layoutY="95.0" text="\%" />
+                  <Label fx:id="cookinglevel" layoutX="363.0" layoutY="116.0" text="lvl" />
+                  <Label fx:id="cookingxptracker" layoutX="490.0" layoutY="95.0" text="0/Hr" />
+                  <Label layoutX="183.0" layoutY="95.0" text="Cooking XP:" />
+               </children>
+            </AnchorPane>
+         </children>
+      </Group>
+   </children>
+</StackPane>

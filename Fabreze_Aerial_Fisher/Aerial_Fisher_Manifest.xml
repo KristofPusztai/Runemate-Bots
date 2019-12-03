@@ -1,0 +1,28 @@
+<manifest>
+    <main-class>Fabreze.bots.Fabreze_Aerial_Fisher.AerialFisherMain</main-class>
+    <name>Fabreze Aerial Fisher</name>
+    <tag-line>Who knew Aerial Fishing would be such a breeze</tag-line><!--Max of 50 chars-->
+    <description>Hunts down fish with your trusty cormarant</description><!--Max of 110 chars-->
+    <version>1.4.3</version>
+    <compatibility>
+        <game>OSRS</game>
+    </compatibility>
+    <categories>
+        <category>FISHING</category>
+    </categories>
+    <!--Required to publish on the bot store-->
+    <internal-id>Aerial Fisher</internal-id>
+    <!--The rest are optional-->
+    <open-source>false</open-source>
+    <hidden>false</hidden> <!--If you need to hide it from the bot store for maintenance-->
+    <access>public</access>
+    <price>0.03</price>
+    <tags>
+        <tag>Aerial Fishing</tag>
+        <tag>Cormorant</tag>
+        <tag>Molch Pearl</tag>
+    </tags>
+    <resources>
+        <resource>Fabreze/bots/Fabreze_Aerial_Fisher/GUI/AerialFishingGUI.fxml</resource>
+    </resources>
+</manifest>
