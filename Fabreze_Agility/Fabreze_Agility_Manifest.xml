@@ -1,0 +1,27 @@
+<manifest>
+    <main-class>Fabreze.bots.Fabreze_Agility.Fabreze_Agility_Main</main-class>
+    <name>Fabreze Agility</name>
+    <tag-line>Who knew agility would be such a breeze</tag-line><!--Max of 50 chars-->
+    <description>Grinds out agility</description><!--Max of 110 chars-->
+    <version>1.5.6</version>
+    <compatibility>
+        <game>OSRS</game>
+    </compatibility>
+    <categories>
+        <category>AGILITY</category>
+    </categories>
+    <!--Required to publish on the bot store-->
+    <internal-id>Fabreze Agility</internal-id>
+    <!--The rest are optional-->
+    <open-source>false</open-source>
+    <hidden>false</hidden> <!--If you need to hide it from the bot store for maintenance-->
+    <access>public</access>
+    <tags>
+        <tag>Agility</tag>
+        <tag>Marks of Grace</tag>
+        <tag>Grind</tag>
+    </tags>
+    <resources>
+        <resource>Fabreze/bots/Fabreze_Agility/GUI/Fabreze_AgilityGUI.fxml</resource>
+    </resources>
+</manifest>
