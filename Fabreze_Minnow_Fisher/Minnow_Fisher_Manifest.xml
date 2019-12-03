@@ -1,0 +1,29 @@
+<manifest>
+    <main-class>Fabreze.bots.Fabreze_Minnow_Fisher.MinnowFisherMain</main-class>
+    <name>Fabreze Minnow Fisher</name>
+    <tag-line> Who knew Minnow Fishing would be such a breeze </tag-line><!--Max of 50 chars-->
+    <description> Fishes Minnows to trade in later for Sharks</description><!--Max of 110 chars-->
+    <version>2.2.5</version>
+    <compatibility>
+        <game>OSRS</game>
+    </compatibility>
+    <categories>
+        <category>FISHING</category>
+    </categories>
+    <!--Required to publish on the bot store-->
+    <internal-id>Minnow Fisher Premium</internal-id>
+    <!--The rest are optional-->
+    <open-source>false</open-source>
+    <hidden>false</hidden> <!--If you need to hide it from the bot store for maintenance-->
+    <access>public</access>
+    <price>0.07</price>
+    <tags>
+        <tag>Minnows</tag>
+        <tag>Sharks</tag>
+        <tag>Minnow Fishing</tag>
+        <tag>Fishing Guild</tag>
+    </tags>
+    <resources>
+        <resource>Fabreze/bots/Fabreze_Minnow_Fisher/GUI/MinnowGUI.fxml</resource>
+    </resources>
+</manifest>
