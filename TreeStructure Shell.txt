@@ -1,0 +1,18 @@
+BranchTask:
+
+    @Override
+    public boolean validate(){
+        return false;
+    }
+    @Override
+    public TreeTask successTask() { return null; }
+
+    @Override
+    public TreeTask failureTask() { return null; }
+
+LeafTask:
+
+    @Override
+    public void execute(){
+        
+    }
