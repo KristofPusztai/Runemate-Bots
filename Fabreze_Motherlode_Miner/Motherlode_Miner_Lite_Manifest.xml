@@ -1,0 +1,28 @@
+<manifest>
+    <main-class>Fabreze.bots.Fabreze_Motherlode_Miner.MotherlodeMain</main-class>
+    <name>Fabreze Motherlode Miner Lite</name>
+    <tag-line>Who knew Motherlode Mining would be such a breeze</tag-line><!--Max of 50 chars-->
+    <description> Plays the Motherlode Miner </description><!--Max of 110 chars-->
+    <version>3.0.5</version>
+    <compatibility>
+        <game>OSRS</game>
+    </compatibility>
+    <categories>
+        <category>MINING</category>
+    </categories>
+    <!--Required to publish on the bot store-->
+    <internal-id>Motherlode Miner Lite</internal-id>
+    <!--The rest are optional-->
+    <open-source>false</open-source>
+    <hidden>false</hidden> <!--If you need to hide it from the bot store for maintenance-->
+    <access>public</access>
+    <tags>
+        <tag>Motherlode</tag>
+        <tag>Gold Nugget</tag>
+        <tag>Mine</tag>
+        <tag>Prospectors Outfit</tag>
+    </tags>
+    <resources>
+        <resource>Fabreze/bots/Fabreze_Motherlode_Miner/GUI/MotherlodeMinerGUI.fxml</resource>
+    </resources>
+</manifest>
