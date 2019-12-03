@@ -1,0 +1,29 @@
+<manifest>
+    <main-class>Fabreze.bots.Fabreze_Barrows.BarrowsMain</main-class>
+    <name>Fabreze Barrows[BETA]</name>
+    <tag-line>Who knew Barrows Brothers would be such a breeze</tag-line><!--Max of 50 chars-->
+    <description>Sit Back, Relax, and Enjoy the Fight</description><!--Max of 110 chars-->
+    <version>1.0.0</version>
+    <compatibility>
+        <game>OSRS</game>
+    </compatibility>
+    <categories>
+        <category>MONEYMAKING</category>
+    </categories>
+
+    <internal-id>Fighter</internal-id>
+
+    <open-source>false</open-source>
+    <hidden>false</hidden>
+    <access>public</access>
+    <!--<price>0.1</price> add this in post beta testing for 2 weeks-->
+    <tags>
+        <tag>Fabreze Barrows</tag>
+        <tag>Barrows</tag>
+        <tag>Barrows Brothers</tag>
+        <tag>Bossing</tag>
+    </tags>
+    <resources>
+        <resource>Fabreze/bots/Fabreze_Barrows/GUI/BarrowsUI.fxml</resource>
+    </resources>
+</manifest>
