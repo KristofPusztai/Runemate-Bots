@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<!--suppress ALL -->
+
+<StackPane xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Group>
+         <children>
+            <AnchorPane layoutX="6.0" layoutY="14.0" prefHeight="354.0" prefWidth="663.0">
+               <children>
+                  <Label layoutX="162.0" layoutY="42.0" text="Run Time:" />
+                  <Label fx:id="clock" layoutX="226.0" layoutY="18.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="65.0" prefWidth="200.0" text="00:00:00">
+                     <font>
+                        <Font size="44.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="stopat" layoutX="498.0" layoutY="33.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="31.0" prefWidth="84.0" text="00:00:00" />
+                  <Button fx:id="update" layoutX="591.0" layoutY="33.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" text="Update" />
+                  <Label fx:id="stopatlabel" layoutX="498.0" layoutY="68.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" />
+                  <Label layoutX="435.0" layoutY="38.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Stop At:" />
+                  <ProgressBar fx:id="progressbar" layoutX="228.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" progress="0.0" />
+                  <Label layoutX="135.0" layoutY="104.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Smithing XP:" />
+                  <Label layoutX="305.0" layoutY="104.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="\%" fx:id="xppercent" />
+                  <Label fx:id="level" layoutX="312.0" layoutY="126.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="lvl" />
+                  <Label layoutX="436.0" layoutY="104.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="XP Tracker:" />
+                  <Label layoutX="516.0" layoutY="104.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="0/Hr" fx:id="xptracker" />
+                  <CheckBox fx:id="waterbucket" layoutX="169.0" layoutY="168.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" text="Bucket of Water" />
+                  <CheckBox fx:id="iceglove" layoutX="314.0" layoutY="168.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" text="Ice Gloves" />
+                  <CheckBox fx:id="goldsmith" layoutX="421.0" layoutY="168.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" text="Goldsmith Gauntlets" />
+                  <CheckBox fx:id="coalbag" layoutX="70.0" layoutY="168.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" text="Coal Bag" />
+                  <ComboBox fx:id="ore" layoutX="43.0" layoutY="217.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="31.0" prefWidth="165.0" promptText="Select Bar" />
+                  <Button fx:id="setore" disable="true" layoutX="221.0" layoutY="217.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" text="Set Ore" />
+                  <Label fx:id="setorelabel" layoutX="138.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" />
+                  <TextField fx:id="coincoffer" layoutX="338.0" layoutY="218.0" prefHeight="31.0" prefWidth="126.0" text="0" />
+                  <Button fx:id="setcoin" layoutX="479.0" layoutY="218.0" mnemonicParsing="false" text="Set Coffer" />
+                  <Label fx:id="coincofferlabel" layoutX="367.0" layoutY="258.0" />
+                  <Button fx:id="start" disable="true" layoutX="293.0" layoutY="295.0" mnemonicParsing="false" text="Start" />
+                  <Label fx:id="startlabel" layoutX="383.0" layoutY="300.0" />
+                  <RadioButton fx:id="staminapot" layoutX="77.0" layoutY="286.0" mnemonicParsing="false" text="Stamina Potion" />
+                  <RadioButton fx:id="dropempty" layoutX="77.0" layoutY="317.0" mnemonicParsing="false" text="Drop Empty Vial" />
+               </children>
+            </AnchorPane>
+         </children>
+      </Group>
+   </children>
+</StackPane>
